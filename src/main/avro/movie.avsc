@@ -1,0 +1,22 @@
+{
+  "namespace": "org.acme.kafka.quarkus",
+  "type": "record",
+  "name": "Observation",
+  "fields": [
+    {
+      "name": "status",
+      "doc" : "registered | preliminary | final | amended",
+      "type": "string"
+    },
+    {
+      "name": "performer",
+      "doc": "Who is responsible for the observation",
+      "type": "string"
+    },
+    {
+      "name": "value",
+      "doc": "spo2 value",
+      "type": "int"
+    }
+  ]
+}
